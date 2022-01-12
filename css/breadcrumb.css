@@ -1,0 +1,165 @@
+	/*刪除垃圾桶圖示*/	
+	
+	.trash{
+        position: static;
+        margin-right: -80%;
+	}
+	
+	.trash:hover{
+		border-radius: 10px;
+		
+		
+	}
+
+/*編輯圖示*/	
+	.trash1{
+        position: static;
+        margin-top: -30px;
+        margin-right: -110%;
+	}
+	
+	.trash1:hover{
+		border-radius: 10px;
+	}
+		
+	/*內容*/	
+div.container1 {
+  margin-left: 150px;
+  padding: 0px;
+  height: 130px;
+}
+
+/*平板樣式*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  
+  div.container1 {margin-right: 100;}
+
+}
+
+/*手機樣式*/
+@media  (max-width: 767px)  {
+  .sidebar a {
+    text-align: center;
+    float: none;
+	display: block;
+  }
+
+	div.container1 {align: center;margin-left: 50PX; padding:10px;}
+	div.dropup {margin-left: 170px; margin-top: 620px;}
+	ul.breadcrumb{align:center; margin-left:130px;}
+
+}
+		
+		/*內容按鈕*/
+.button {
+  background-color: #90a4ae;
+  color: white;
+  border: none; 
+  border-radius: 10px;
+  /*width: 170px;*/
+  height: 100px; 
+  margin: 20px;
+  margin-top: 60px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button1{
+	background-color: white;
+	color: black;
+	border: 2px solid #90a4ae;
+	}
+	
+	
+.button1:hover{
+	background-color: #90a4ae;
+	color: white;
+	}
+	
+/*麵包屑*/
+ul.breadcrumb {
+  list-style: none;
+ 
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #607d8b;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #2d3941;
+  font-weight:bold;
+  text-decoration: underline;
+}
+	
+/*設定*/
+/* DropUp Button */
+.dropbtn {
+  position: absolute;
+  background-color:  #90a4ae;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+  margin-left: 170px;
+  margin-top: 630px;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  margin-left: 23px;
+  margin-bottom: -58px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 50px;
+  border-radius: 10px;
+  z-index: 1;
+  
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 49px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #c1d5e0;
+}
+
+.dropup-content a:hover {
+		background-color:#c1d5e0;
+		color: black;
+		align-content: center;
+		border-radius: 10px;
+	    border: 1px solid #c1d5e0;
+
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+

@@ -1,0 +1,99 @@
+/*epy_group Start*/
+.epy_block{
+    height: 100px;
+    background-color: white;
+    width: auto;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 9px lightgrey;
+  }
+
+.epy_block_name{
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border: 0;
+    padding:20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    color: black;
+  }
+.epy_block_footer{
+    width: 100%;
+    height: 30%;
+  }
+.epy_block_drop{
+    float: right;
+    background-color: white;
+    height: 100%;
+    width: 70px;
+    border-radius:10px;
+  }
+  
+.epy_block_drop img{
+    height: 23px;
+    width: 23px;
+  }
+
+.epy_block :hover .epy_block_name{
+ 
+        background-color: #90a4ae;
+	    color: white;
+
+}
+.epy_block :hover .epy_block_footer{
+ 
+    background-color: #90a4ae;
+    color: white;
+
+}
+
+@media (max-width: 767px)  {
+  .epy_block{
+    width: 90%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .epy_block{
+    width: 40%;
+  }
+}
+/*epy_group End*/
+
+/*dpt_edit Start*/
+
+.select_style{
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+.key{
+  width: 200px;margin: 0 auto;padding:10px;border-top:1px solid lightgrey;color: black;transition-duration: 0.4s;border-radius: 5px;
+}
+.key:hover{
+  background-color:lightgrey;text-decoration:none;
+
+}
+/*dpt_edit End*/
+/*set1.php Start*/
+
+.next {
+    padding: 0;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50px;
+    width: 30px;
+    border: 0;
+}
+.next:hover {
+    background-color: lightgrey;
+}
+/*set1.php End*/
