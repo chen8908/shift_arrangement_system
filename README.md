@@ -7,8 +7,8 @@ Different identities will have different operating experience.
 
 We have three types of premission for users:
 
-* senior management
-* middle management
+* Senior management
+* Middle management
 * General Staff
 
 # Usage: 
@@ -17,27 +17,27 @@ You must log in with developer account (admin) and add your first senior managem
 
 Then,you can use the senior management account to add the other privileges accounts.
 
-What can each authority do?
+What can each privileges accounts do?
 
-### senior management
+### Senior management
 
 * Manage schedule
 * Manage employee groups
 * Manage leave form
 * Manage senior management
-* Check Salary records
+* Check salary records
 
-### middle management
+### Middle management
 
 * Manage schedule(own department)
 * Manage employee groups(own department)
-* Check Salary records(own department)
+* Check salary records(own department)
 * Manage leave form
 
 ### General Staff
 
 * Check own schedule
-* Check own Salary records
+* Check own salary records
 
 # Installation:
 
