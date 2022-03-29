@@ -3,7 +3,7 @@
 
 > The shift arrangement system is designed for small and medium-sized enterprises with low scheduling needs
 
-Different identities will have different operating experience.
+Different identities will have different user experience.
 
 We have three types of premission for users:
 
